@@ -28,7 +28,7 @@ def create_html(valutes):
         text += '</tr>'
         text += '<tr>'
         for v in valute.values():
-            text += f'<td>*T*</td>'
+            text += f'<td>*%*</td>'
         text += '</tr>'
 
     text += '</table>'
